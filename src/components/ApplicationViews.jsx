@@ -12,6 +12,11 @@ export const ApplicationViews = () => {
     const [rocksState, setRocksState] = useState([{
         id: 1,
         name: "Sample",
+        weight: "",
+        user: {
+            first_name: "",
+            last_name: ""
+        },
         type: {
             id: 1,
             label: "Volcanic"
