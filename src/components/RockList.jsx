@@ -10,7 +10,7 @@ export const RockList = ({ rocks, fetchRocks }) => {
       return rocks.map((rock) => (
         <div
           key={`key-${rock.id}`}
-          className="border p-5 border-solid hover:bg-fuchsia-500 hover:text-violet-50 rounded-md border-violet-900 mt-5 bg-slate-50"
+          className="border p-5 border-solid hover:bg-teal-400 hover:text-violet-50 rounded-md border-violet-900 mt-5 bg-slate-50"
         >
               {rock.name} ({rock.type.label}) weighs {rock.weight} kg
               <br/>
